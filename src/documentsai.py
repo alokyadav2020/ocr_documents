@@ -4,14 +4,6 @@ from pathlib import Path
 
 
 
-# PROJECT_ID = 'ocrproject-437404'
-# LOCATION = "us"  # Format is 'us' or 'eu'
-# PROCESSOR_ID = "cea550b598901179"  # Create processor in Cloud Console
-
-# The local file in your current working directory
-# FILE_PATH = r'D:\Client_pro\Fiverr\arjungupta\RAG_MMLLM\Work\Proj_Deploy\notebook\0337_0273.JPEG_page_3.JPEG'
-# Refer to https://cloud.google.com/document-ai/docs/file-types
-# for supported file types
 MIME_TYPE ='image/jpeg'
 
 def ocr_doc(PROJECT_ID:str,LOCATION:str,PROCESSOR_ID:str,FILE_PATH:Path):
